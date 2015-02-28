@@ -31,7 +31,7 @@ if (strpos($_SERVER['HTTP_USER_AGENT'], 'Mac') !== false) {
     $STYLE['form_fontsize'] = "11px"; // ("11px") input, option, select のフォントの大きさ（Caminoを除く）
 }else{
     /* Mac以外のフォントファミリー*/
-    $STYLE['fontfamily'] = "ＭＳ Ｐゴシック"; // ("ＭＳ Ｐゴシック") 基本のフォント
+    $STYLE['fontfamily'] = "IPA モナー Pゴシック"; // ("ＭＳ Ｐゴシック") 基本のフォント
     /* Mac以外のフォントサイズ */
     $STYLE['fontsize'] = "12px"; // ("12px") 基本フォントの大きさ
     $STYLE['menu_fontsize'] = "12px"; // ("12px") 板メニューのフォントの大きさ
